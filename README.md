@@ -1,8 +1,8 @@
 # GPG dotfiles
 GPG dotfiles, [managed by GNU Stow](https://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html).
 
-For the sake of convenience, install [GPG Suite](https://gpgtools.org/). You can then store GPG key passwords in the macOS keychain.
+[The setup scripts][setup-macos] install [GPG Suite][gpg-suite]. [GitHub has detailed instructions][github-docs] on creating signing keys, adding them to Git, and so forth.
 
-```
-$ brew cask install gpg-suite-no-mail
-```
+[github-docs]: https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification
+[gpg-suite]: https://gpgtools.org
+[setup-macos]: https://github.com/monooso/setup-macos
